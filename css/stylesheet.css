@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+main{
+    background-color: rgb(76, 91, 102);
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    align-content: center;
+    padding: 0 100px;
+}
+
+#logo {
+    padding: 15px;
+}
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+ul li:hover {
+    background-color: rgb(61, 72, 80);
+    border-radius: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+.principalContent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+#iphone {
+    width: 350px;
+    height: auto;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 10px 0;
+}
+
+p {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 60px 0;
+    
+}
+
+#firstOption {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(62, 150, 210);
+    padding: 15px 45px;
+    margin: 0 15px;
+}
+
+#secondOption {
+    background-color: rgb(76, 91, 102);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+#line {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#shape01 {
+    padding-right: 10px;
+}
+
+.principalInfo{
+    width: 600px;
+}
+
+#firstpha{
+    color: rgba(255, 255, 255, 0.781);
+}
+
+#secondpha{
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.logos {
+    background-color: rgb(234, 234, 234);
+    border-bottom: 1px solid rgb(192, 192, 192);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dummy {
+    margin: 25px 90px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.card {
+    width: 25%;
+    margin: 0 30px;
+    color: rgb(94, 108, 117);
+}
+
+.card h2 {
+    padding-top: 25px ;
+}
+
+.card p {
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+    padding: 10px 0;
+}
+
+.card button {
+    background-color: rgb(84, 155, 208);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 35px;
+    margin: 20px 0;
+}
+
+#imgprojects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infosocialmedia {
+    display: flex;
+    color: rgb(94, 108, 117);
+    margin: 0 80px 20px;
+    align-items: center;
+}
+
+.infosocialmedia h3 {
+    padding: 0 10px;
+    font-size: 25px;
+}
+
+.phone {
+    width: 250px;
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px 30px;
+}
+
+.socialMedia {
+    display: flex;
+    margin: 70px 0 15px ;
+    color: rgb(94, 108, 117);
+}
+
+#socialMedia01 {
+    width: 50%;
+}
+
+#socialMedia02 {
+    width: 50%;
+}
+
+.pc {
+    width: 200px;
+    height: auto;
+    margin: 10px 30px 20px 80px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.more{
+    color: rgb(0, 172, 237);
+    text-decoration: none;
+}
+
+.info {
+    padding: 0;
+    line-height: 1.8;
+}
+
+.date{
+    padding: 5px;
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+.divsocialmedia {
+    display: flex;
+}
+
+h4 {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.entries {
+    color: rgb(0, 172, 237);
+    text-decoration: none;
+    margin: 0 80px;
+}
+
+.tweet{
+    margin: 18px 80px;
+}
+
+.link {
+    color: rgb(0, 172, 237);
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(192, 192, 192);
+    padding: 0 80px;
+}
+
+footer p {
+    opacity: 0.5;
+}
+
+footer img{ 
+    padding: 10px;
+}
+
+@media screen and (min-width:769px) and (max-width:1279px){
+    .header {
+        justify-content: space-around;
+        padding: 0;
+    }
+    
+    .principalInfo{
+        padding: 0 25px;
+        font-size: 10px;
+    }
+
+    #iphone {
+        width: 280px;
+        height: auto;
+        margin: 0 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    #firstOption {
+        padding: 5px 25px;
+        
+    }
+
+    .options {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+    }
+
+    .services {
+        align-items: flex-end;
+    }
+
+    .infosocialmedia h3 {
+        font-size: 22px;
+    }
+
+    .socialMedia{
+        flex-direction: column;
+    }
+
+    #socialMedia01 {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .pc{
+        margin: 10px 30px 20px 0px;
+    }
+
+    .divsocialmedia {
+        margin: 0 20px ;
+    }
+
+    #socialMedia02 {
+        width: 100%;
+    }
+
+    .infosocialmedia {
+        margin: 0 20px 20px;
+    }
+    
+}
+
+@media screen and (min-width:375px) and (max-width:768px){
+    .header{
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #iphone {
+        width: 200px;
+        margin: 15px;
+    }
+
+    .options{
+        margin: 25px 0;
+    }
+
+    #firstOption {
+        padding: 12px 20px;
+    }
+
+    .principalInfo {
+        width: 320px;
+        text-align: center;
+        text-align: justify;
+    }
+
+    .principalContent {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .services {
+        margin: 0 10px;
+        flex-direction: column;
+    }
+
+    .card {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 85%;
+        margin: 20px 30px;
+    }
+
+    .dummy {
+        margin: 25px 100px;
+    }
+
+    .card img {
+        width: 100px;
+        height: auto;
+    }
+
+    .card button {
+        padding: 10px 15px;
+    }
+
+    .socialMedia {
+        flex-direction: column;
+    }
+
+    #socialMedia01 {
+        width: 100%;
+    }
+
+    #socialMedia02 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .divsocialmedia {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
+    .pc{
+        margin: 5px;
+    }
+
+    .info {
+        margin: 5px 50px;
+        line-height: 1.8;
+    }
+
+    .date {
+        margin : 8px 50px;
+        padding: 0;
+    }
+
+    .entries {
+        margin: 50px;
+    }
+
+    h4{
+        margin:  10px 50px;
+    }
+
+    .infosocialmedia {
+        margin: 0 30px 50px;
+    }
+
+    .tweet {
+        margin: 0;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
